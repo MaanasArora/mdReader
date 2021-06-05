@@ -1,0 +1,17 @@
+{
+  "name": "mdreader",
+  "version": "0.0.1",
+  "description": "a simple markdown reader",
+  "main": "index.js",
+  "dependencies": {
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "electron": "^13.1.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Maanas Arora",
+  "license": "ISC"
+}
