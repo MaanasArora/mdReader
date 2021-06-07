@@ -1,4 +1,54 @@
 body {
-    font-family: "Playfair Display", serif;
-    padding: 5%;
+  font-family: "Playfair Display", serif;
+  margin: 0;
 }
+
+nav {
+  background-color: #664646;
+  color: white;
+  padding: 10px;
+  -webkit-app-region: drag;
+}
+
+nav h4 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+button {
+  background: #664646;
+  color: white;
+  -webkit-app-region: no-drag;
+  border: 0;
+  font-family: inherit;
+  padding: 10px;
+}
+
+button:hover {
+  background: #362323;
+}
+
+nav button {
+  background: #362323;
+}
+
+nav button:hover {
+  background: #1b0d0d;
+}
+
+.main-container {
+  padding: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */

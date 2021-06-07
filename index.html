@@ -9,9 +9,16 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="mainContainer">
-      <h1>mdReader</h1>
-      <a onclick="loadFile()"><h2>Open sample file</h2></a>
+    <nav>
+      <ul>
+        <li><h4>mdReader</h4></li>
+        <li><button onclick="openFile()">Open File</button></li>
+        <li><button onclick="closeApp()">Close</button></li>
+      </ul>
+    </nav>
+    <div id="main" class="main-container">
+      <h1>Welcome to mdReader</h1>
+      <button onclick="openFile()">Open a file</button>
     </div>
   </body>
   <script src="renderer.js"></script>
